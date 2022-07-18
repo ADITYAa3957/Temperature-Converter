@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading"> <span id="text-1">Temperature</span> Converter 🌡️</h1>
+      <div class="selection">
+        <input
+          type="number"
+          name=""
+          id=""
+          placeholder="Enter the temperature" class="input-field number-field"
+        />
+        <select name="" class="input-field" id="input-unit">
+          <option value="dummy" disabled selected>Current units</option>
+          <option value="Fareh">&#186;F</option>
+          <option value="Cels">&#186;C</option>
+        </select>
+        <br>
+        <select name="" class="input-field last" id="output-unit">
+          <option value="dummy" disabled selected>Final units</option>
+          <option value="Fareh">&#186;F</option>
+          <option value="Cels">&#186;C</option>
+        </select>
+        <br>
+        <button type="submit" class="btn">Convert</button>
+      </div>
+      <h2 class="output"></h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

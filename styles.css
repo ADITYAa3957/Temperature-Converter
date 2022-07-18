@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+*:focus {
+    outline: none;
+}
+body{
+    background-color: dodgerblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'Encode Sans', sans-serif;
+}
+.container{
+    padding:3%;
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+    height:50vh;
+    align-items: center;
+    background-color: skyblue;
+    box-shadow:0 0.2rem 0.5rem 0 black;
+    border-radius:0.3rem;
+}
+.heading{
+    font-size:3.2rem;
+    color:blue;
+   
+}
+.selection{
+    padding:4%;
+    padding-top:7%;
+    height:20vh;
+    text-align: center;
+}
+.btn{
+    /* display: block; */
+    margin-top:7%;
+    padding:2.5% 7%;
+    font-size:1.15rem;
+    background-color:transparent;
+    color: purple;
+    border:2px solid purple ;
+    border-radius:0.3rem;
+    transition-property: all;
+    transition-duration:0.4s;
+}
+.btn:hover{
+    background-color:purple;
+    color: white;
+    transform: scale(1.05);
+    transform:translateY(-0.15rem);
+    box-shadow:0 0.2rem 0.5rem 0 black;
+}
+.btn:active{
+    transform:translateY(0.15rem);
+    box-shadow: none;
+    transform: scale(1);
+}
+
+.last{
+    margin-top:1rem;
+}
+.input-field{
+    padding:0.3rem;
+    height:2rem;
+    border-radius:0.5rem;
+    text-align: center;
+    font-size:1.2rem;
+    /* box-shadow:; */
+}
+.number-field{
+    border-radius:0.5rem;
+}
+#text-1{
+    color:red;
+}
+.output{
+    margin-top:3%;
+    font-size:1.8rem;
+    color: blue;
+}
